@@ -1,0 +1,46 @@
+.inputf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.bord{
+    border: 2px solid black;
+    padding: 30px;
+}
+.in{
+    margin:20px;
+    padding: 4px;
+}
+label {
+    width: 150px;
+    display: block;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  input {
+    width: 250px;
+    padding:8px;
+  }
+  
+  button {
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+  }
+  
+  .error {
+    display: block;
+    font-size: 14px;
+    color: red;
+    width: 350px;
+    text-align: right;
+    display: none;
+  }
